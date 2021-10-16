@@ -1,0 +1,51 @@
+.container-resume {
+  width: 236px;
+  height: 196px;
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: 'Rubik';
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 26px 36px 31px 33px;
+  margin-bottom: 15px;
+}
+
+.container-resume >*{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #2F2F2F;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+.container-resume h2 {
+  margin-bottom: 23px;  
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2F2F2F;
+}
+
+.saldo{
+  margin-top: 7px;
+  padding-top: 17px;
+  border-top: 1px solid #EAEAEA;
+  margin-bottom: 0px;
+}
+
+.saldo span {
+  font-weight: bold;
+}
+
+.balance{
+  color: #3A9FF1;
+}
+
+.hidden{
+  display: none;
+}
